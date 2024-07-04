@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-""" Type Checking module """
+""" Type Checking module"""
 from typing import Tuple, List, TYPE_CHECKING
 
 
 def zoom_array(lst: Tuple, factor: int = 2) -> List:
+    """ zoom_array return List"""
     zoomed_in: List = [
         item for item in lst
         for i in range(int(factor))
