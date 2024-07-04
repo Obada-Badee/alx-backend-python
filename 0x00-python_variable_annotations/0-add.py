@@ -2,7 +2,7 @@
 """ Basic annotations - add module """
 
 
-def add(a: float, b:float) -> float:
+def add(a: float, b: float) -> float:
     """ Anotated Function to add ab+ b"""
 
     return float(a + b)
